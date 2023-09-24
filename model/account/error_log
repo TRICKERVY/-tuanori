@@ -1,0 +1,21 @@
+[02-Sep-2021 20:41:34 Asia/Ho_Chi_Minh] PHP Parse error:  syntax error, unexpected ')', expecting end of file in /home/thecaore/public_html/model/account/auth.php on line 7
+[11-Sep-2021 14:45:28 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/thecaore/public_html/model/account/payin.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/thecaore/public_html/model/account/payin.php on line 35
+[11-Sep-2021 14:45:37 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/thecaore/public_html/model/account/payin.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/thecaore/public_html/model/account/payin.php on line 35
+[11-Sep-2021 14:45:38 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/thecaore/public_html/model/account/payin.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/thecaore/public_html/model/account/payin.php on line 35
+[11-Sep-2021 14:45:40 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/thecaore/public_html/model/account/payin.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/thecaore/public_html/model/account/payin.php on line 35
+[11-Sep-2021 14:45:47 Asia/Ho_Chi_Minh] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/thecaore/public_html/model/account/payin.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/thecaore/public_html/model/account/payin.php on line 35

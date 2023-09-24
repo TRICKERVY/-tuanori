@@ -1,0 +1,170 @@
+
+@media (min-width: 768px){
+    .modal-top {
+        max-width: 600px;
+        margin: 30px auto;
+    }
+}
+    .rank-modal-tab {
+        font-size: 15px;
+    }
+    .modal-content .modal-header h4 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 700;
+        color: #354052;
+    }
+    .rank-modal-tab ul.nav-tabs {
+        border-bottom: none;
+        margin-bottom: 10px;
+    }
+    .rank-modal-tab ul.nav-tabs li {
+        width: 33%;
+        text-align: center;
+    }
+    .rank-modal-tab ul.nav-tabs li.active a,
+    .rank-modal-tab ul.nav-tabs li.active a:active,
+    .rank-modal-tab ul.nav-tabs li.active a:focus,
+    .rank-modal-tab ul.nav-tabs li.active a:hover {
+        border-radius: 0;
+        border: none;
+        border-bottom-color: currentcolor;
+        border-bottom-style: none;
+        border-bottom-width: medium;
+        border-bottom: 4px solid #f0564a;
+        opacity: 1;
+        font-size: 13px;
+        font-weight: bld;
+    }
+    .rank-modal-tab ul.nav-tabs li a,
+    .rank-modal-tab ul.nav-tabs li a:active,
+    .rank-modal-tab ul.nav-tabs li a:focus,
+    .rank-modal-tab ul.nav-tabs li a:hover {
+        cursor: pointer;
+        border-radius: 0;
+        background-color: initial;
+        outline: none;
+        border: none;
+        border-bottom: 4px solid #fff;
+        opacity: 0.5;
+        color: #000;
+        padding-top: 0;
+        font-size: 13px;
+        font-weight: bld;
+    }
+    .rank-modal-tab ul.nav-tabs li a,
+    .rank-modal-tab ul.nav-tabs li a:active,
+    .rank-modal-tab ul.nav-tabs li a:focus,
+    .rank-modal-tab ul.nav-tabs li a:hover {
+        cursor: pointer;
+        color: #000;
+    }
+    .top-info-section {
+        text-align: center;
+        border-bottom: 10px solid #f4f3f3;
+        margin-top: 50px;
+        position: relative;
+    }
+    .top-info-section img {
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+    }
+    .top-info-section .background-top1 {
+        position: absolute;
+        top: -34px;
+        left: 33%;
+        height: 149px;
+        width: 190px;
+    }
+    .rank-modal-tab p {
+        color: orange;
+        font-size: 1.4rem;
+        line-height: 25px;
+    }
+    .rank-modal-tab p a {
+        color: #f0564a;
+        font-size: 14px;
+    }
+    .rank-modal-tab ul.rank-list {
+        margin-top: 10px;
+        padding: 0;
+    }
+    .rank-modal-tab ul.rank-list li {
+        padding: 10px 0;
+    }
+    .pull-left {
+        float: left !important;
+    }
+    .rank-modal-tab ul.rank-list li p {
+        margin-right: 10px;
+        color: #333;
+        font-size: 15px;
+    }
+    .rank-modal-tab ul.rank-list li .avt,
+    .rank-modal-tab ul.rank-list li .name-player-review {
+        float: left;
+        min-width: 40px;
+    }
+    .avt-xs {
+        width: 25px;
+        height: 25px;
+    }
+    .avt {
+        position: relative;
+    }
+    .rank-modal-tab ul.rank-list li img {
+        margin-right: 10px;
+        color: #333;
+        width: 30px;
+        height: 30px;
+        border-radius: 150px;
+    }
+    .avt .avt-img {
+        min-width: 25px;
+    }
+    .rank-modal-tab ul.rank-list li img {
+        margin-right: 10px;
+        color: #333;
+        width: 30px;
+        height: 30px;
+        border-radius: 150px;
+    }
+    .avt .vip-avatar {
+        position: absolute;
+        top: -5px;
+        left: -2px;
+    }
+    .rank-modal-tab ul.rank-list li .avt,
+    .rank-modal-tab ul.rank-list li .name-player-review {
+        float: left;
+        min-width: 40px;
+    }
+    .rank-modal-tab ul.rank-list li p {
+        margin-right: 10px;
+        color: #333;
+    }
+    .hidden-over-name {
+        display: block;
+        overflow: hidden;
+    }
+
+    @media screen and (max-width: 678px) {
+        .top-info-section .background-top1 {
+            position: absolute;
+            top: -34px;
+            left: 19%;
+            height: 149px;
+            width: 190px;
+        }
+    }
+@media screen and (min-width: 1024px){  
+        .hidden-pc{
+            display: none;
+        }
+}
+@media screen and (max-width: 678px){
+    .hidden-mobile{
+    display: none;
+}
+}

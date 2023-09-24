@@ -1,0 +1,193 @@
+.btn-info{
+
+    color: #fff;
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.shadow, .shadow-lg {
+    box-shadow: 1px 1px;
+}
+.h-px-2 {
+    padding-left: .5rem;
+    padding-right: .5rem;
+}
+.h-py-2 {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+.h-pt-2 {
+    padding-top: .5rem;
+}
+.h-mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+.max-w-6xl {
+    max-width: 72rem;
+}
+.h-px-3 {
+    padding-left: .75rem;
+    padding-right: .75rem;
+}
+.h-mb-2 {
+    margin-bottom: .5rem;
+}
+@media (min-width: 1024px){
+    .lg\:ml-4 {
+        margin-left: 1rem;
+    }
+}
+@media (min-width: 1024px){
+    .lg\:mb-0 {
+        margin-bottom: 0;
+    }
+}
+.rounded-full {
+    border-radius: 9999px;
+}
+.border-gray-400 {
+    --tw-border-opacity: 1;
+    border-color: rgba(148,163,184,var(--tw-border-opacity));
+}
+.h-mx-2 {
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.bx-menu:before {
+    content: "\eb2a";
+}
+label{
+    margin-bottom: 0;
+}
+
+.my-6 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.border-trueGray-800 {
+    --tw-border-opacity: 1;
+    border-color: rgba(39,39,42,var(--tw-border-opacity));
+}
+.bg-trueGray-800 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(39,39,42,var(--tw-bg-opacity));
+}
+.bg-trueGray-900 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(24,24,27,var(--tw-bg-opacity));
+}
+.nav{
+    flex-wrap: unset;
+}
+.nav-link{
+    padding:0;
+}
+.title-grant {
+    background: linear-gradient(#f7c613,#b38b17);
+    background: -webkit-linear-gradient(#f7c613,#b38b17);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+@media (min-width: 768px){
+    .md\:text-1xl {
+        font-size: 20px;
+        line-height: 2rem;
+    }
+}
+.n-px-5 {
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+}
+.n-py-3 {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+}
+.border-2{
+    border: 2px solid #52525b;
+}
+.btn-inner {
+    background: -webkit-linear-gradient(bottom,#ffe900,#f2ac00)!important;
+    font-family: "Roboto Condensed",sans-serif;
+    font-weight: 700;
+    color: #111213;
+}
+.border-l-4 {
+    border-left-width: 4px;
+}
+.bg-red-500 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(239,68,68,var(--tw-bg-opacity));
+}
+.border-gray-500 {
+    --tw-border-opacity: 1;
+    border-color: rgba(100,116,139,var(--tw-border-opacity));
+}
+.user-active {
+    color: red;
+}
+.hover\:text-white:hover {
+    --tw-text-opacity: 1;
+    color: rgba(255,255,255,var(--tw-text-opacity));
+}
+.hover\:bg-blue-500:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(14,165,233,var(--tw-bg-opacity));
+}
+.border-blue-500 {
+    --tw-border-opacity: 1;
+    border-color: rgba(14,165,233,var(--tw-border-opacity));
+}
+.border-red-500 {
+    --tw-border-opacity: 1;
+    border-color: rgba(239,68,68,var(--tw-border-opacity));
+}
+.border-blue-600 {
+    --tw-border-opacity: 1;
+    border-color: rgba(2,132,199,var(--tw-border-opacity));
+}
+.bg-blue-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(2,132,199,var(--tw-bg-opacity));
+}
+.border-green-600 {
+    --tw-border-opacity: 1;
+    border-color: rgba(22,163,74,var(--tw-border-opacity));
+}
+.bg-green-600 {
+    --tw-bg-opacity: 1;
+    background-color: rgba(22,163,74,var(--tw-bg-opacity));
+}
+.btn-hover.color-6 {
+    background-image: linear-gradient(
+90deg
+,#009245,#fcee21,#00a8c5,#d9e021);
+    box-shadow: 0 4px 15px 0 rgb(83 176 57 / 75%);
+}
+.btn-hover, .btn-hover:hover {
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover {
+    height: 2.2rem;
+    cursor: pointer;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+}
+.duration-200 {
+    transition-duration: .2s;
+}
+.transition {
+    transition-property: background-color,border-color,color,fill,stroke,opacity,box-shadow,transform;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    transition-duration: .15s;
+}
+.border-yellow-500 {
+    --tw-border-opacity: 1;
+    border-color: rgba(245,158,11,var(--tw-border-opacity));
+}
+.w-36 {
+    width: 9rem;
+}

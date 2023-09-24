@@ -1,0 +1,248 @@
+@media only screen and (max-width: 1366px) {
+	.history table {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+@media only screen and (max-width: 1280px){	
+	.rotation .play-spin .ani-zoom {
+		top: calc(50% - 60px);
+		left: calc(50% - 45px);
+		width: 90px;
+	}
+	.profile-page .container {
+		width: 95%;
+	}
+}
+@media only screen and (max-width: 1024px){	
+	.flex-list .item {padding: 0 10px;}
+	.rotation .play-spin .ani-zoom {
+		top: calc(50% - 50px);
+		left: calc(50% - 35px);
+		width: 70px;
+	}
+	.history .table-body {max-height: 400px;}
+	.profile-page {padding: 40px 0;}
+	header .menu-login {display: block}
+}
+@media only screen and (max-width: 768px){
+	ul#menu-main li:after, ul#menu-main li:before {content: none;}
+	.home-wrap {padding: 30px 0;}
+	header .menu_mobile {
+		display: inline-block;
+		float: right;
+		font-size: 30px;
+		padding: 15px;
+	}
+	header .menu-login {
+		display: none;
+		clear: both;
+		border-top: 1px solid #ccc;
+	}
+	nav.main-nav, header .right-item {
+		display: block;
+		width: 100%;		
+		text-align: center;
+	}
+	ul#menu-main li {
+		display: block;
+		text-align: center;
+		padding: 5px 0;
+	}
+	header .btn-cs {
+		width: 45%;
+	}
+	footer {
+		text-align: center;
+		font-size: 16px;
+		line-height: 22px;
+	}
+	footer .name-com, footer .statistic h3 {
+		font-size: 18px;
+		line-height: 24px;
+	}
+	footer .row > .item {margin-bottom: 40px;}
+	footer .partner img {max-height: 70px;}
+	.flex-list {
+		flex-wrap: wrap;
+	}
+	.flex-list .item {
+		width: 100%;
+		margin-top: 20px;
+		padding: 0 20px;
+	}
+	.rotation .play-spin .ani-zoom {
+		top: 39%;
+		left: 42%;
+		width: 16%;
+	}
+	.modal-cs .modal-dialog {
+		width: 90%;
+		max-width: 95%!important;
+
+	}
+	#modalListAward .modal-body {max-width: 80%;}
+	#avatar_user {
+		width: 120px;
+		height: 120px;
+	}
+	.profile-page .sidebar {margin-bottom: 30px;}
+	.profile-page .profile-bot {text-align: center;}
+	.profile-page .profile-detail .form-group {clear: both;}
+	.profile-page .history .table-body {max-height: 350px;}
+	h3.title {
+		font-size: 24px;
+		line-height: 34px;
+		margin-bottom: 15px;
+	}
+	.page-card form#formCard {
+		max-width: 80%;
+	}
+}
+@media only screen and (max-width: 736px){
+	
+}
+@media only screen and (max-width: 668px){
+	.flex-list .item {padding: 0 5px;}
+	.rotation .play-spin {width: 80%;}
+	.section {padding-top: 0;}
+	.btn-img {
+		padding: 8px 30px;
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.history table {
+		font-size: 16px;
+		line-height: 22px;
+	}
+}
+@media only screen and (max-width: 601px){
+	header #logo img {
+		max-height: 50px;
+	}
+	header .menu_mobile {padding: 10px 15px;}
+	header .btn-cs {
+		width: 40%;
+	}
+	.btn-cs {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	footer, footer .statistic li {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	footer .name-com, footer .statistic h3 {
+		font-size: 16px;
+		line-height: 22px;
+	}
+	footer .statistic li {padding: 2px 0;}
+	footer .partner img {max-height: 60px;}
+	.history table {
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.history table th:first-child, .history table th:last-child, .history table td:first-child, .history table td:last-child {
+		width: 33%;
+	}
+	.profile-page .acc-info,.sb-profile ul.left-menu {padding: 10px 0;}
+	.profile-page .acc-info li {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.contact .content {
+		max-width: 90%;
+	}
+	.page-card form#formCard {
+		max-width: 100%;
+	}
+}
+@media only screen and (max-width: 568px){	
+	
+}
+@media only screen and (max-width: 480px){
+	.container, .profile-page .container, .home .container, header .container, footer .container {width: 100%}
+	footer #menu-quick-link li {
+		display: block;
+		font-size: 15px;
+		line-height: 22px;
+		padding: 2px 0;
+	}
+	footer #menu-quick-link li:after {content: none;}
+	footer .row > .item {margin-bottom: 20px;}
+	h3 {
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.rotation .num-play span {
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.history>img {max-height: 50px;}
+	section.rotation {padding-top: 0;}
+	.modal-cs .modal-header, .modal-cs .modal-body {
+		padding: 8px 10px;
+	}
+	.scrollbar-inner {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.scroll-wrapper > .scroll-content {padding-right: 10px;}
+	#modalRules .content {
+		margin: 20px 10px;
+		margin-right: 0;
+	}
+	#modalListAward .modal-body {max-width: 100%}
+	#modalListAward table {
+		font-size: 15px;
+	}
+	#modalBuy input[name='number_buy'] {width: 70px;}
+	#modalBuy input[name='number_buy'], #modalBuy input[name='total_price'] {max-width: 120px;}
+	.only-view .form-left {width: 40%;}
+	.only-view .result {width: 60% !important;}
+	#profile h3.profile-title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.contact .content {
+		max-width: 100%;
+	}
+	h3.title {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+@media only screen and (max-width: 415px){
+	.rotation .play-spin {width: 100%;}
+	.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+		padding: 3px;
+	}
+	.history .table-body {max-height: 350px;}
+	.scrollbar-inner > .scroll-element.scroll-y {width: 5px;}
+	.scrollbar-inner > .scroll-element .scroll-bar {
+		background-color: rgba(45,116,214,0.6);
+	}
+	form#formCard label {
+		width: 100px;
+	}
+	form#formCard .form-cs {
+		width: calc(100% - 120px);
+	}
+}
+@media only screen and (max-width: 384px){
+	ul.list-btn li  {
+		width: 80%;
+		margin-top: 5px;
+		display: block;
+	}
+	.home-wrap ul.list-btn {
+		flex-wrap: wrap;
+	}
+	.history>img {max-height: 60px}
+}
+@media only screen and (max-width: 375px){
+	
+}
+@media only screen and (max-width: 320px){
+	
+}

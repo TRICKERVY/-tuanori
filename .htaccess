@@ -1,0 +1,117 @@
+
+RewriteEngine on
+
+
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R]
+# Rewrite option pages
+# Rewrite Url
+RewriteRule ^index.html$ index.php [L]
+RewriteRule ^home$ index.php [L]
+RewriteRule ^register$ index.php?modun=account&act=register [L]
+RewriteRule ^login$ index.php?modun=account&act=login [L]
+RewriteRule ^login.html$ index.php?modun=account&act=login [L]
+RewriteRule ^verify.html$ view/account/verify.php [L]
+RewriteRule ^logout$ view/account/out.php [L]
+RewriteRule ^login/fb$ view/account/fb-login.php [L]
+
+ # Rewrite Pages
+RewriteRule ^minigame/whell-([0-9]+)$ index.php?modun=vongquaykimcuong&act=index&id=$1 [L]
+
+RewriteRule ^account-game/freefire$ index.php?modun=freefire&act=index [L]
+RewriteRule ^account-game/freefire/page=([0-9]+)$ index.php?modun=freefire&act=index&page=$1 [L]
+RewriteRule ^account-game/freefire/view-([0-9]+)$ index.php?modun=freefire&act=xem_them&id=$1 [L]
+
+RewriteRule ^account-game/lienquan$ index.php?modun=lienquan&act=index [L]
+RewriteRule ^account-game/lienquan/page=([0-9]+)$ index.php?modun=lienquan&act=index&page=$1 [L]
+RewriteRule ^account-game/lienquan/view-([0-9]+)$ index.php?modun=lienquan&act=xem_them&id=$1 [L]
+
+RewriteRule ^body/lienquan$ index.php?modun=lienquan&act=index [L]
+RewriteRule ^body/lienquan/page=([0-9]+)$ index.php?modun=lienquan&act=index&page=$1 [L]
+RewriteRule ^body/lienquan/acc/([0-9]+).html$ index.php?modun=lienquan&act=xem_them&id=$1 [L]
+
+
+RewriteRule ^html/latbai1$ index.php?modun=game/latthe&act=index1 [L]
+RewriteRule ^account/(.*)$ index.php?modun=random_freefire&act=index&cname=$1 [L]
+RewriteRule ^account/(.*)/page=([0-9]+)$ index.php?modun=random_freefire&act=index&cname=$1&page=$2 [L]
+RewriteRule ^random/lienquan/(.*)$ index.php?modun=random_lienquan&act=index&cname=$1 [L]
+RewriteRule ^random/lienquan/(.*)/page=([0-9]+)$ index.php?modun=random_lienquan&act=index&cname=$1&page=$2 [L]
+
+
+RewriteRule ^handler/execute/buy.php$ model/random_freefire/xuly.php [L]
+RewriteRule ^confirm-change$ model/account/user_edit.php [L]
+RewriteRule ^handler/execute/card.php$ model/account/payin.php [L]
+RewriteRule ^handler/execute/diamond.php$ model/account/rutvatpham.php [L]
+RewriteRule ^confirm-buy-account-ff$ model/freefire/xuly.php [L]
+RewriteRule ^confirm-buy-account-lq$ model/lienquan/xuly.php [L]
+RewriteRule ^confirm-very-auth$ model/account/auth.php [L]
+RewriteRule ^check_voucher$ model/freefire/check_giftcode.php [L]
+
+RewriteRule ^user/authencation$ index.php?modun=users&act=index&cmd=auth [L]
+RewriteRule ^user/profile$ index.php?modun=users&act=index&cmd=profile [L]
+RewriteRule ^user/change-password$ index.php?modun=users&act=index&cmd=change-password [L]
+RewriteRule ^user/recharge$ index.php?modun=users&act=index&cmd=recharge [L]
+RewriteRule ^user/tran/recharge$ index.php?modun=users&act=index&cmd=tran/recharge [L]
+RewriteRule ^user/tran/account$ index.php?modun=users&act=index&cmd=tran/account [L]
+RewriteRule ^user/tran/account/page=([0-9]+)$ index.php?modun=users&act=index&cmd=tran/account&page=$1 [L]
+RewriteRule ^user/tran/sodu$ index.php?modun=users&act=index&cmd=tran/sodu [L]
+RewriteRule ^user/tran/sodu/page=([0-9]+)$ index.php?modun=users&act=index&cmd=tran/sodu&page=$1 [L]
+#RewriteRule ^user/recharge-online$ index.php?modun=users&act=index&cmd=recharge-online [L]
+RewriteRule ^user/draw-vatpham$ index.php?modun=users&act=index&cmd=draw-vatpham [L]
+RewriteRule ^user/draw-vatpham/page=([0-9]+)$ index.php?modun=users&act=index&cmd=draw-vatpham&page=$1 [L]
+RewriteRule ^user/minigame$ index.php?modun=users&act=index&cmd=minigame [L]
+RewriteRule ^user/minigame/page=([0-9]+)$ index.php?modun=users&act=index&cmd=minigame&page=$1 [L]
+
+RewriteRule ^lich-su-giaodich.html$ index.php?modun=action&act=index&cmd=lich_su_giao_dich [L]
+RewriteRule ^lich-su-giaodich.html/page=([0-9]+)$ index.php?modun=action&act=index&cmd=lich_su_giao_dich&page=$1 [L]
+RewriteRule ^account/item-receipt-history$ index.php?modun=action&act=index&cmd=lich_su_quay [L]
+RewriteRule ^account/item-receipt-history/page=([0-9]+)$ index.php?modun=action&act=index&cmd=lich_su_quay&page=$1 [L]
+
+RewriteRule ^user/recharge/page=([0-9]+)$ index.php?modun=users&act=index&cmd=recharge&page=$1 [L]
+RewriteRule ^account/card-history$ index.php?modun=action&act=index&cmd=lich_su_nap_the [L]
+RewriteRule ^account/card-history/page=([0-9]+)$ index.php?modun=action&act=index&cmd=lich_su_nap_the&page=$1 [L]
+RewriteRule ^html/quanhuy$ index.php?modun=rutquanhuy&act=index [L]
+RewriteRule ^html/quanhuy/page=([0-9]+)$ index.php?modun=rutquanhuy&act=index&page=$1 [L]
+RewriteRule ^rut/kimcuong$ view/action/rutvatpham.php [L]
+RewriteRule ^change-other-kc$ view/rutkimcuong/xuly.php [L]
+RewriteRule ^account/history-kc$ index.php?modun=action&act=index&cmd=rutkimcuong [L]
+RewriteRule ^account/history-kc/page=([0-9]+)$ index.php?modun=action&act=index&cmd=rutkimcuong&page=$1 [L]
+RewriteRule ^account/purchased-account-history$ index.php?modun=action&act=index&cmd=acc_ff [L]
+RewriteRule ^account/purchased-account-history/page=([0-9]+)$ index.php?modun=action&act=index&cmd=acc_ff&page=$1 [L]
+RewriteRule ^account/purchased-random-history$ index.php?modun=action&act=index&cmd=random_ff [L]
+RewriteRule ^account/purchased-random-history/page=([0-9]+)$ index.php?modun=action&act=index&cmd=random_ff&page=$1 [L]
+
+ # Rewrite Module
+RewriteRule ^handler/execute/users.php$ model/account/user.php [L]
+RewriteRule ^system/napthe$ model/account/napthe.php [L]
+
+RewriteRule ^system/tro-choi/vq$ model/vongquaykimcuong/xuly.php [L]
+RewriteRule ^system/vongquaycodesung$ model/vongquaycodesung/xuly.php [L]
+RewriteRule ^system/bingo$ model/game/bingo/xuly.php [L]
+RewriteRule ^system/bingo2$ model/game/bingo2/xuly.php [L]
+RewriteRule ^system/trongdong$ model/game/bingo2/xuly1.php [L]
+RewriteRule ^system/bingo3$ model/game/bingo3/xuly.php [L]
+RewriteRule ^system/bingo4$ model/game/bingo4/xuly.php [L]
+RewriteRule ^system/latthe$ model/latthe/xuly.php [L]
+
+ # Rewrite administrator
+RewriteRule ^administrator/homthinhbian$ administrator/?modun=homthinhbian&act=index [L]
+RewriteRule ^administrator/homthinhbian/page=([0-9]+)$ administrator/?modun=homthinhbian&act=index&page=$1 [L]
+
+RewriteRule ^administrator/rutvatpham$ administrator/?modun=rut_kim_cuong&act=index [L]
+RewriteRule ^administrator/rutvatpham/page=([0-9]+)$ administrator/?modun=rut_kim_cuong&act=index&page=$1 [L]
+
+RewriteRule ^administrator/rutquanhuy$ administrator/?modun=rut_quan_huy&act=index [L]
+RewriteRule ^administrator/rutquanhuy/page=([0-9]+)$ administrator/?modun=rut_quan_huy&act=index&page=$1 [L]
+
+RewriteRule ^administrator/kimcuong$ administrator/?modun=kimcuong&act=index [L]
+RewriteRule ^administrator/kimcuong/page=([0-9]+)$ administrator/?modun=kimcuong&act=index&page=$1 [L]
+
+RewriteRule ^administrator/bingo$ administrator/?modun=bingo&act=index [L]
+RewriteRule ^administrator/thenap$ administrator/?modun=thenap&act=index [L]
+RewriteRule ^administrator/thenap/page=([0-9]+)$ administrator/?modun=thenap&act=index&page=$1 [L]
+RewriteRule ^administrator/users$ administrator/?modun=account&act=index [L]
+RewriteRule ^administrator/users/page=([0-9]+)$ administrator/?modun=account&act=index&page=$1 [L]
+
+RewriteRule ^administrator/list_acc_random/(.*)$ administrator/?modun=random_freefire&act=list_random&cname=$1 [L]
+RewriteRule ^administrator/list_acc_random_lq/(.*)$ administrator/?modun=random_lienquan&act=list_random_lq&cname=$1 [L]
